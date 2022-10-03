@@ -1,0 +1,12 @@
+body #footerlist {
+  background-color: grey;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 10px;
+  color: white; }
+  body #footerlist a {
+    color: white;
+    text-decoration: none;
+    padding: 10px; }
+  body #footerlist a:hover {
+    background-color: indianred; }

@@ -1,0 +1,22 @@
+body{
+    text-decoration: none;
+    #list{display:flex;
+        justify-content: right;
+        list-style: none;
+       
+        padding: 10px;
+        color: white;
+    background-color:indianred;}
+    #list a{font-size: larger;
+        color: white;
+        text-decoration: none;
+         padding:10px;
+    }
+    #list a:hover{
+       
+        background-color: red;
+    }
+     #text{
+        float: left;
+    }
+}

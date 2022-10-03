@@ -1,0 +1,18 @@
+body {
+  text-decoration: none; }
+  body #list {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    padding: 10px;
+    color: white;
+    background-color: indianred; }
+  body #list a {
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+    padding: 10px; }
+  body #list a:hover {
+    background-color: red; }
+  body #text {
+    float: left; }
