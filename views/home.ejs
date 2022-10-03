@@ -1,10 +1,26 @@
 
         <h1>Codeal /<%=title%></h1>
 
-        <section id = " feed - posts " >
+        <section id = "feed-posts" >
         <h4> Posts </h4 >
+          <% if(locals.user){ %>
         <form action = "/posts/create" id = "new-post-form" method = "POST" >
              <textarea name = "content" cols = "30" rows = "3" placeholder="Type Here.."> </textarea >
              <input type = "submit" value = "post" >
-        </form>
-   </section>  
+        </form><%}%>
+ 
+        <div id="posts-List-container">
+          <ul>
+          <% for(post of posts){ %>
+          
+          <li>
+          <%= post.content %><br>
+          <small><%=post.user %></small>
+          </li>
+          
+          <%} %>
+          </ul>
+          </div>
+        </section>
+          
+  
